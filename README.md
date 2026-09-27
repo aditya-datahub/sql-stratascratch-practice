@@ -89,9 +89,8 @@ This repo is where I track my SQL practice end-to-end — writing queries, docum
 
 1. Read the prompt + schema carefully on StrataScratch, sketch the expected output on paper
 2. Write the query, test it against the sample data
-3. Save the solution in the right folder (`easy/`, `medium/`, `hard/`) with the question comment header
-4. Cross it off my list once it's genuinely solved and tested
-5. If it introduced a new concept/trick, log it in [`notes/learnings.md`](notes/learnings.md)
+3. Cross it off my list once it's genuinely solved and tested
+4. If it introduced a new concept/trick, log it in [`notes/learnings.md`](notes/learnings.md)
 
 ## Notes
 
