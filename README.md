@@ -4,33 +4,6 @@ My solutions to [StrataScratch](https://platform.stratascratch.com/coding) SQL c
 
 This repo is where I track my SQL practice end-to-end — writing queries, documenting my approach, and noting recurring patterns (window functions, joins, aggregations, date handling) so I can revisit them before interviews.
 
-## Structure
-
-```
-sql-stratascratch-practice/
-├── easy/       → Easy questions   (29 total)
-├── medium/     → Medium questions (33 total)
-├── hard/       → Hard questions   (4 total)
-└── notes/
-    └── learnings.md   → SQL patterns, gotchas & reusable snippets
-```
-
-Each solution file is named after the question (kebab-case) and follows this format:
-
-```sql
-/*
-Question: <question title>
-Company: <company>
-Difficulty: <Easy / Medium / Hard>
-Link: https://platform.stratascratch.com/coding
-*/
-
--- Approach:
--- (short note on how I solved it)
-
-SELECT ...
-```
-
 ## Easy (29)
 
 | # | Question | Company |
