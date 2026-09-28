@@ -7,7 +7,6 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![StrataScratch](https://img.shields.io/badge/StrataScratch-00A88F?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)
-![Problems](https://img.shields.io/badge/Problems-0%2F66-blue?style=for-the-badge)
 
 </div>
 
@@ -102,12 +101,12 @@ The filter I'm following: **PostgreSQL · Free tier · Product Analyst + Data An
 
 ## 📊 Summary
 
-| Difficulty | Total | Solved |
-|:---:|:---:|:---:|
-| 🟢 Easy | 29 | 0 |
-| 🟡 Medium | 33 | 0 |
-| 🔴 Hard | 4 | 0 |
-| **Total** | **66** | **0** |
+| Difficulty | Total |
+|:---:|:---:|
+| 🟢 Easy | 29 |
+| 🟡 Medium | 33 |
+| 🔴 Hard | 4 |
+| **Total** | **66** |
 
 ---
 
@@ -115,7 +114,7 @@ The filter I'm following: **PostgreSQL · Free tier · Product Analyst + Data An
 
 1. Read the prompt and schema carefully, sketch the expected output first
 2. Write the query and test it against the sample data
-3. Add it to the solved count only once it's genuinely solved
+3. Move on only once it's genuinely solved and tested
 4. Log any new concept or trick in [`notes/learnings.md`](notes/learnings.md)
 
 ---
