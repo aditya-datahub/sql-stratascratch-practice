@@ -1,97 +1,129 @@
-# SQL StrataScratch Practice
+<div align="center">
 
-My solutions to [StrataScratch](https://platform.stratascratch.com/coding) SQL coding questions, solved on **PostgreSQL**, filtered to the **Free** tier for **Product Analyst** and **Data Analyst** roles.
+# 🧠 StrataScratch SQL Practice
 
-This repo is where I track my SQL practice end-to-end — writing queries, documenting my approach, and noting recurring patterns (window functions, joins, aggregations, date handling) so I can revisit them before interviews.
+### Solving StrataScratch's free SQL questions for Data & Product Analyst roles
 
-## Easy (29)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![StrataScratch](https://img.shields.io/badge/StrataScratch-00A88F?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge)
+![Problems](https://img.shields.io/badge/Problems-0%2F66-blue?style=for-the-badge)
 
-| # | Question | Company |
-|---|----------|---------|
-| 1 | Find all posts which were reacted to with a heart | Meta |
-| 2 | Finding Updated Records | Microsoft |
-| 3 | Total Cost Of Orders | Etsy |
-| 4 | Workers With The Highest Salaries | Amazon |
-| 5 | Average Salaries | Glassdoor |
-| 6 | Calculate Samantha's and Lisa's total sales revenue | Amazon |
-| 7 | Wine varieties tasted by 'Roger Voss' | Wine Magazine |
-| 8 | Hour Of Highest Gas Expense | Lyft |
-| 9 | Find all Lyft rides which happened on rainy days before noon | Lyft |
-| 10 | Lyft Driver Wages | Lyft |
-| 11 | Artist Appearance Count | Spotify |
-| 12 | Top Ranked Songs | Spotify |
-| 13 | Olympics Events List By Age | ESPN |
-| 14 | Find all athletes who were older than 40 years when they won either Bronze or Silver | ESPN |
-| 15 | Order Details | Shopify |
-| 16 | Departments With 5 Employees | Glassdoor |
-| 17 | April Admin Employees | Microsoft |
-| 18 | First Names With Six Letters Ending in 'h' | Amazon |
-| 19 | Find drafts which contains the word 'optimism' | Google |
-| 20 | Number of violations | Yelp |
-| 21 | Inspection For Glassell Coffee Shop | Yelp |
-| 22 | Churro Activity Date | Yelp |
-| 23 | Most Profitable Financial Company | Forbes |
-| 24 | MacBookPro User Event Count | Apple |
-| 25 | Contact Information Completeness | Salesforce |
-| 26 | Users Missing Phone Numbers | Meta |
-| 27 | High Earners in Support Departments | Amazon |
-| 28 | Number of Shipments Per Month | Amazon |
-| 29 | Unique Users Per Client Per Month | Apple |
+</div>
 
-## Medium (33)
+---
 
-| # | Question | Company |
-|---|----------|---------|
-| 1 | Users By Average Session Time | Meta |
-| 2 | Acceptance Rate By Date | Meta |
-| 3 | Finding User Purchases | Amazon |
-| 4 | Risky Projects | LinkedIn |
-| 5 | Finding Purchases | Amazon |
-| 6 | Ranking Most Active Guests | Airbnb |
-| 7 | Number Of Units Per Nationality | Airbnb |
-| 8 | Find the number of inspections for each risk category by inspection type | Yelp |
-| 9 | Find the percentage of shipable orders | Google |
-| 10 | Meta/Facebook Matching Users Pairs | Meta |
-| 11 | Matching Similar Hosts and Guests | Airbnb |
-| 12 | Income By Title and Gender | LinkedIn |
-| 13 | Top Cool Votes | Yelp |
-| 14 | Reviews of Categories | Yelp |
-| 15 | Top Businesses With Most Reviews | Yelp |
-| 16 | Find all possible varieties which occur in either of the winemag datasets | Wine Magazine |
-| 17 | Highest Target Under Manager | Salesforce |
-| 18 | Highest Salary In Department | Asana |
-| 19 | Employee and Manager Salaries | Walmart |
-| 20 | Second Highest Salary | Dropbox |
-| 21 | Titanic Survivors and Non-Survivors | Google |
-| 22 | Duplicate HR Department Employees | Amazon |
-| 23 | Employees With the Same Salary | Amazon |
-| 24 | Count Occurrences Of Words In Drafts | Google |
-| 25 | Make the friends network symmetric | Google |
-| 26 | Processed Ticket Rate By Type | Meta |
-| 27 | Top 10 Songs 2010 | Spotify |
-| 28 | Customers with Large Orders | Netflix |
-| 29 | Department Workforce Analysis | Google |
-| 30 | Salary Less Than Twice The Average | Walmart |
-| 31 | Flags per Video | Netflix |
-| 32 | Maximum of Two Numbers | Deloitte |
-| 33 | Share of Active Users | Meta |
+## 📖 About
 
-## Hard (4)
+This repository tracks my practice on **[StrataScratch](https://platform.stratascratch.com/coding)** — real SQL interview questions asked at companies like Meta, Amazon, Google, Airbnb, Netflix and Yelp.
 
-| # | Question | Company |
-|---|----------|---------|
-| 1 | Consecutive Days | Netflix |
-| 2 | Best Selling Item | Best Buy |
-| 3 | Rank Variance Per Country | Meta |
-| 4 | Monthly Percentage Difference | Amazon |
+The filter I'm following: **PostgreSQL · Free tier · Product Analyst + Data Analyst roles**, covering all three difficulty levels.
 
-## How I work through a question
+🎯 **Goal:** interview-ready SQL — joins, aggregation, window functions, CTEs, date and string handling
+📝 **Notes:** recurring patterns and gotchas live in [`notes/learnings.md`](notes/learnings.md)
 
-1. Read the prompt + schema carefully on StrataScratch, sketch the expected output on paper
-2. Write the query, test it against the sample data
-3. Cross it off my list once it's genuinely solved and tested
-4. If it introduced a new concept/trick, log it in [`notes/learnings.md`](notes/learnings.md)
+---
 
-## Notes
+## 📋 Question Tracker
 
-See [`notes/learnings.md`](notes/learnings.md) for recurring SQL patterns (window functions, joins, self-joins, date filtering, string matching, ranking, etc.) picked up while solving these questions.
+> Ticked = solved and tested on the platform.
+
+### 🟢 Easy (29)
+- [ ] Find all posts which were reacted to with a heart — Meta
+- [ ] Finding Updated Records — Microsoft
+- [ ] Total Cost Of Orders — Etsy
+- [ ] Workers With The Highest Salaries — Amazon
+- [ ] Average Salaries — Glassdoor
+- [ ] Calculate Samantha's and Lisa's total sales revenue — Amazon
+- [ ] Wine varieties tasted by 'Roger Voss' — Wine Magazine
+- [ ] Hour Of Highest Gas Expense — Lyft
+- [ ] Find all Lyft rides which happened on rainy days before noon — Lyft
+- [ ] Lyft Driver Wages — Lyft
+- [ ] Artist Appearance Count — Spotify
+- [ ] Top Ranked Songs — Spotify
+- [ ] Olympics Events List By Age — ESPN
+- [ ] Find all athletes who were older than 40 years when they won either Bronze or Silver — ESPN
+- [ ] Order Details — Shopify
+- [ ] Departments With 5 Employees — Glassdoor
+- [ ] April Admin Employees — Microsoft
+- [ ] First Names With Six Letters Ending in 'h' — Amazon
+- [ ] Find drafts which contains the word 'optimism' — Google
+- [ ] Number of violations — Yelp
+- [ ] Inspection For Glassell Coffee Shop — Yelp
+- [ ] Churro Activity Date — Yelp
+- [ ] Most Profitable Financial Company — Forbes
+- [ ] MacBookPro User Event Count — Apple
+- [ ] Contact Information Completeness — Salesforce
+- [ ] Users Missing Phone Numbers — Meta
+- [ ] High Earners in Support Departments — Amazon
+- [ ] Number of Shipments Per Month — Amazon
+- [ ] Unique Users Per Client Per Month — Apple
+
+### 🟡 Medium (33)
+- [ ] Users By Average Session Time — Meta
+- [ ] Acceptance Rate By Date — Meta
+- [ ] Finding User Purchases — Amazon
+- [ ] Risky Projects — LinkedIn
+- [ ] Finding Purchases — Amazon
+- [ ] Ranking Most Active Guests — Airbnb
+- [ ] Number Of Units Per Nationality — Airbnb
+- [ ] Find the number of inspections for each risk category by inspection type — Yelp
+- [ ] Find the percentage of shipable orders — Google
+- [ ] Meta/Facebook Matching Users Pairs — Meta
+- [ ] Matching Similar Hosts and Guests — Airbnb
+- [ ] Income By Title and Gender — LinkedIn
+- [ ] Top Cool Votes — Yelp
+- [ ] Reviews of Categories — Yelp
+- [ ] Top Businesses With Most Reviews — Yelp
+- [ ] Find all possible varieties which occur in either of the winemag datasets — Wine Magazine
+- [ ] Highest Target Under Manager — Salesforce
+- [ ] Highest Salary In Department — Asana
+- [ ] Employee and Manager Salaries — Walmart
+- [ ] Second Highest Salary — Dropbox
+- [ ] Titanic Survivors and Non-Survivors — Google
+- [ ] Duplicate HR Department Employees — Amazon
+- [ ] Employees With the Same Salary — Amazon
+- [ ] Count Occurrences Of Words In Drafts — Google
+- [ ] Make the friends network symmetric — Google
+- [ ] Processed Ticket Rate By Type — Meta
+- [ ] Top 10 Songs 2010 — Spotify
+- [ ] Customers with Large Orders — Netflix
+- [ ] Department Workforce Analysis — Google
+- [ ] Salary Less Than Twice The Average — Walmart
+- [ ] Flags per Video — Netflix
+- [ ] Maximum of Two Numbers — Deloitte
+- [ ] Share of Active Users — Meta
+
+### 🔴 Hard (4)
+- [ ] Consecutive Days — Netflix
+- [ ] Best Selling Item — Best Buy
+- [ ] Rank Variance Per Country — Meta
+- [ ] Monthly Percentage Difference — Amazon
+
+---
+
+## 📊 Summary
+
+| Difficulty | Total | Solved |
+|:---:|:---:|:---:|
+| 🟢 Easy | 29 | 0 |
+| 🟡 Medium | 33 | 0 |
+| 🔴 Hard | 4 | 0 |
+| **Total** | **66** | **0** |
+
+---
+
+## 🔁 How I work through a question
+
+1. Read the prompt and schema carefully, sketch the expected output first
+2. Write the query and test it against the sample data
+3. Tick it off here only once it's genuinely solved
+4. Log any new concept or trick in [`notes/learnings.md`](notes/learnings.md)
+
+---
+
+<div align="center">
+
+⭐ Following along or prepping for SQL interviews too? Feel free to star the repo!
+
+</div>
